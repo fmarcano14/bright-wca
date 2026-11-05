@@ -16,7 +16,10 @@ Easiest way, using the free **Downloader** app:
 Or download `bright-wca.apk` from [Releases](https://github.com/fmarcano14/bright-wca/releases) and sideload it with adb.
 
 ## First run
-Turn on **Wireless debugging** once (Developer options). The app grants itself the permission it needs; you can turn debugging off afterwards.
+Turn on **Wireless debugging** once:
+1. Enable Developer options: Settings → System → About → click **Android TV OS build** 7 times until it says you're a developer.
+2. Go back to Settings → System → **Developer options** and turn on **Wireless debugging**.
+3. Open Bright WCA and follow the on-screen pairing steps. The app grants itself the permission it needs; you can turn debugging off afterwards.
 
 ## Modes
 - **A – Brightness:** keep your current colors, pick Low / Normal / High / Max.
@@ -43,6 +46,6 @@ Mantiene los colores de Wall Color Adaptation y sube el brillo en proyectores An
 
 - **Por qué:** tras una actualización reciente del firmware en algunos proyectores Anker con Google TV, Wall Color Adaptation corrige los colores pero baja mucho el brillo; al subirlo se pierde la corrección y aparece un tono verde. Bright WCA sube el brillo sin perder esos colores, sin root.
 - **Instalar (fácil):** instala **Downloader** (de AFTVnews) desde Google Play; en Ajustes → Apps → Seguridad y restricciones → Fuentes desconocidas, activa **Downloader**; abre Downloader, escribe el código **8579547** (o la dirección `https://github.com/fmarcano14/bright-wca/releases/latest/download/bright-wca.apk`), pulsa Go y luego **Instalar** y **Abrir**.
-- **Primera vez:** activa **Depuración inalámbrica** una vez; la app se da el permiso sola.
+- **Primera vez:** activa las Opciones de desarrollador (Ajustes → Sistema → Información → pulsa 7 veces **Compilación del SO de Android TV**), luego en Ajustes → Sistema → **Opciones de desarrollador** activa **Depuración inalámbrica** una vez; la app se da el permiso sola.
 - **Modos:** A sube el brillo sin cambiar colores; B ajusta colores con hoja blanca o a mano.
 - **Aviso:** no oficial, úsala bajo tu propio riesgo, sin relación con Anker.
