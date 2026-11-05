@@ -1,0 +1,18 @@
+# signing
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.idsig
+keystore.properties
+# build outputs
+build/
+out/
+*.apk
+*.aab
+*.o
+*.so
+!libs/spake2/jni/**/*.so
+local.properties
+.DS_Store
