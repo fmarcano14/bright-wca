@@ -27,4 +27,3 @@ $BT/apksigner sign --ks "$KS" --ks-pass pass:"$KSPASS" --out out/bright-wca.apk 
 rm -f out/*.idsig
 ls -la out/bright-wca.apk
 cp -f out/bright-wca.apk bright-wca.apk
-# legacy paths kept for existing scripts (git-ignored)
