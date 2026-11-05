@@ -1,6 +1,9 @@
 # Bright WCA
 
-Keeps your Wall Color Adaptation colors while raising brightness on Anker projectors. Tested on Cosmos 4K SE, firmware V14.
+Keeps your Wall Color Adaptation colors while raising brightness on Anker projectors (Google TV / Android TV). Tested on Cosmos 4K SE, firmware V14.
+
+## Why
+After a recent firmware update on some Anker Google TV projectors, Wall Color Adaptation fixes the colors but drops brightness a lot. Raising brightness turns the correction off and brings back a green tint. Bright WCA raises brightness while keeping the corrected colors. No root needed.
 
 ## Install
 Sideload `bright-wca.apk` (from Releases) onto the projector.
@@ -31,6 +34,7 @@ MIT. `native/spake2` (SPAKE2 pairing) is LGPL-3.0, see its LICENSE.
 ## Español
 Mantiene los colores de Wall Color Adaptation y sube el brillo en proyectores Anker. Probado en Cosmos 4K SE, firmware V14.
 
+- **Por qué:** tras una actualización reciente del firmware en algunos proyectores Anker con Google TV, Wall Color Adaptation corrige los colores pero baja mucho el brillo; al subirlo se pierde la corrección y aparece un tono verde. Bright WCA sube el brillo sin perder esos colores, sin root.
 - **Instalar:** instala el APK manualmente (sideload).
 - **Primera vez:** activa **Depuración inalámbrica** una vez; la app se da el permiso sola.
 - **Modos:** A sube el brillo sin cambiar colores; B ajusta colores con hoja blanca o a mano.
