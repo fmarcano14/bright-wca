@@ -9,8 +9,8 @@ After a recent firmware update on some Anker Google TV projectors, Wall Color Ad
 Easiest way, using the free **Downloader** app:
 1. On the projector, install **Downloader** (by AFTVnews) from the Google Play Store.
 2. Allow Downloader to install apps: Settings → Apps → Security & restrictions → Unknown sources → turn on **Downloader**.
-3. Open Downloader, type this address and press Go:
-   `https://github.com/fmarcano14/bright-wca/releases/latest/download/bright-wca.apk`
+3. Open Downloader, type the code **8579547** and press Go (or type the full address:
+   `https://github.com/fmarcano14/bright-wca/releases/latest/download/bright-wca.apk`)
 4. When it finishes, choose **Install**, then **Open**.
 
 Or download `bright-wca.apk` from [Releases](https://github.com/fmarcano14/bright-wca/releases) and sideload it with adb.
@@ -42,7 +42,7 @@ MIT. `native/spake2` (SPAKE2 pairing) is LGPL-3.0, see its LICENSE.
 Mantiene los colores de Wall Color Adaptation y sube el brillo en proyectores Anker. Probado en Cosmos 4K SE, firmware V14.
 
 - **Por qué:** tras una actualización reciente del firmware en algunos proyectores Anker con Google TV, Wall Color Adaptation corrige los colores pero baja mucho el brillo; al subirlo se pierde la corrección y aparece un tono verde. Bright WCA sube el brillo sin perder esos colores, sin root.
-- **Instalar (fácil):** instala **Downloader** (de AFTVnews) desde Google Play; en Ajustes → Apps → Seguridad y restricciones → Fuentes desconocidas, activa **Downloader**; abre Downloader, escribe `https://github.com/fmarcano14/bright-wca/releases/latest/download/bright-wca.apk`, pulsa Go y luego **Instalar** y **Abrir**.
+- **Instalar (fácil):** instala **Downloader** (de AFTVnews) desde Google Play; en Ajustes → Apps → Seguridad y restricciones → Fuentes desconocidas, activa **Downloader**; abre Downloader, escribe el código **8579547** (o la dirección `https://github.com/fmarcano14/bright-wca/releases/latest/download/bright-wca.apk`), pulsa Go y luego **Instalar** y **Abrir**.
 - **Primera vez:** activa **Depuración inalámbrica** una vez; la app se da el permiso sola.
 - **Modos:** A sube el brillo sin cambiar colores; B ajusta colores con hoja blanca o a mano.
 - **Aviso:** no oficial, úsala bajo tu propio riesgo, sin relación con Anker.
